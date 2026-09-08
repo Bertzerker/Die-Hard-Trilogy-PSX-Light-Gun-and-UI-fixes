@@ -1,0 +1,189 @@
+{
+  "source": "Die Hard Trilogy (USA) (v1.1) (Track 01).bin",
+  "source_bytes": 114928128,
+  "source_sha256": "1a2f348289285ad95cbaed49ffb535cc0d3792307a9a7d6c66fa6c486cdef3a1",
+  "required_baseline": "USA v1.1 SLUS-00119 with existing Nuvee USA Greatest Hits GunCon conversion",
+  "source_unchanged": true,
+  "patches": [
+    {
+      "file": "Gun Patch Mister.ppf",
+      "sha256": "b592b4f3874467508923706b959d99a6091f3111afdc5c97b271b87e37025ff0",
+      "bytes": 1325,
+      "records": 15,
+      "sectors": [
+        239
+      ],
+      "original_sector_checksums_valid": {
+        "239": true
+      },
+      "edits": [
+        {
+          "ram": "0x80088e94",
+          "original": "0001a520",
+          "patched": "f300a520"
+        },
+        {
+          "ram": "0x80088e9c",
+          "original": "edffe720",
+          "patched": "f3ffe720"
+        }
+      ],
+      "verification": "Parsed generated PPF, applied every record, verified executable edits and EDC/ECC, then undid to exact original sectors."
+    },
+    {
+      "file": "Gun Patch Emulator.ppf",
+      "sha256": "212468033bcfa6f4fb5edc778a09e9abb2eab50818764a8ce404fc1fdaee3ae2",
+      "bytes": 1325,
+      "records": 15,
+      "sectors": [
+        239
+      ],
+      "original_sector_checksums_valid": {
+        "239": true
+      },
+      "edits": [
+        {
+          "ram": "0x80088e94",
+          "original": "0001a520",
+          "patched": "f300a520"
+        },
+        {
+          "ram": "0x80088e9c",
+          "original": "edffe720",
+          "patched": "e7ffe720"
+        }
+      ],
+      "verification": "Parsed generated PPF, applied every record, verified executable edits and EDC/ECC, then undid to exact original sectors."
+    },
+    {
+      "file": "Die Hard 2 UI Patch.ppf",
+      "sha256": "cd369504d8d587df1d6b6b2dc33c4d4843315feffa55fcc3ec63d5abc6f23772",
+      "bytes": 5394,
+      "records": 180,
+      "sectors": [
+        88,
+        106,
+        107,
+        115,
+        118
+      ],
+      "original_sector_checksums_valid": {
+        "106": true,
+        "107": true,
+        "115": true,
+        "88": true,
+        "118": true
+      },
+      "edits": [
+        {
+          "ram": "0x80046c30",
+          "original": "c8ffbd273000bfaf2c00b5af2800b4af2400b3af2000b2af1c00b1af1800b0af2198e00021a0a00021a8c0000b80103c4071108e0b80033ca870638c07d80234231803022a1043007200401421906002001c0500031c030000008294002903002328a300f0ff4224080002a6020084948088050020000234100002a6120002a6f0ff84240a0004a61680013c78eb21242108310000002290000000000c0002a21680013c79eb2124210831000000229021200002dc0f020c0d0002a200141300031c020011006104ff0002341680013ca0eb212421083100000022942120000201000534960f020c0e0002a621200002a00f020c2128000023101200040002a2050002a2651b0108060002a20b006214212800001680013ca0eb212421083100000022942120000201000534a00f020c0e0002a6661b0108212800021680013c7aeb2124210831000000229421200002a00f020c0e0002a6040012a2050012a2060012a221280002140010260b80023c1870428c0024150083230400690f020c21208200001412000b00410400141400031402000019020023186200801803001680013c9aeb21242108230000002794831b01081000a0af031402000019020023186200801803001680013c7eeb212421082300000027941000a0af21200002010005342d08020c01000634212800020c0010260b80023c1870428c0024150083230400690f020c212082000b80013c407130ac3000bf8f2c00b58f2800b48f2400b38f2000b28f1c00b18f1800b08f0800e0033800bd27",
+          "patched": "d8ffbd272400bfaf2000b0af1c00b1af1800b2af1400b3af0b80133c4071708ea870688ef3d70934234008022a4028015f00001580900600002c0500032c05000041050023400501804008001680113c78eb3126218828020000888402008984f0ff0825080008a6f0ff29250a0009a620000a3410000aa612000aa600002a9602002b960c000aa606002c9664000d34003c0700033c07000000ee280600c0110000000028002b9622002c9666000d340600001023380700ff000e340300ee140000000028002b9665000d340e000ba6040007a2050007a2060007a207000da204000e3403000ea205800e3c58bace251b00ee1714000f34c8ffad2507000da209000e3403000ea20d0029250a0009a620000e2510000ea6120009a613002925180008a61a0009a620000ea6220009a600002892010029921f000e2514000ea2150009a216000ca61f0029251c0008a21d0009a224000ea2250009a228000f34218880011000afaf1870648e21280002690f020c212092001000af8f2138200221800f021000a0af21200002010005342d08020c010006341870648e21280002690f020c212092000c001026407170ae2400bf8f2000b08f1c00b18f1800b28f1400b38f0800e0032800bd27000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "ram": "0x8004b39c",
+          "original": "1e000234",
+          "patched": "b0000234"
+        },
+        {
+          "ram": "0x8004b3a4",
+          "original": "28000234",
+          "patched": "1c000234"
+        },
+        {
+          "ram": "0x8004b3c0",
+          "original": "1e000734",
+          "patched": "12000734"
+        },
+        {
+          "ram": "0x8004b3dc",
+          "original": "20030234",
+          "patched": "e0010234"
+        },
+        {
+          "ram": "0x8004b3f4",
+          "original": "28000434",
+          "patched": "1c000434"
+        },
+        {
+          "ram": "0x8004b3f8",
+          "original": "1e000534",
+          "patched": "b0000534"
+        },
+        {
+          "ram": "0x8004b404",
+          "original": "08070734",
+          "patched": "38040734"
+        },
+        {
+          "ram": "0x8004b428",
+          "original": "1e000234",
+          "patched": "b0000234"
+        },
+        {
+          "ram": "0x8004b430",
+          "original": "5a000234",
+          "patched": "40000234"
+        },
+        {
+          "ram": "0x8004b44c",
+          "original": "1e000734",
+          "patched": "12000734"
+        },
+        {
+          "ram": "0x8004b464",
+          "original": "20030234",
+          "patched": "e0010234"
+        },
+        {
+          "ram": "0x8004b47c",
+          "original": "5a000434",
+          "patched": "40000434"
+        },
+        {
+          "ram": "0x8004b480",
+          "original": "1e000534",
+          "patched": "b0000534"
+        },
+        {
+          "ram": "0x8004b48c",
+          "original": "08070734",
+          "patched": "38040734"
+        },
+        {
+          "ram": "0x8003d608",
+          "original": "20030234",
+          "patched": "e0010234"
+        },
+        {
+          "ram": "0x8003d628",
+          "original": "1c000534",
+          "patched": "10000534"
+        },
+        {
+          "ram": "0x8003d634",
+          "original": "b80b0734",
+          "patched": "08070734"
+        },
+        {
+          "ram": "0x8004c768",
+          "original": "0c1b010c",
+          "patched": "00000000"
+        },
+        {
+          "ram": "0x8004c784",
+          "original": "0c1b010c",
+          "patched": "00000000"
+        }
+      ],
+      "verification": "Parsed generated PPF, applied every record, verified executable edits and EDC/ECC, then undid to exact original sectors."
+    }
+  ],
+  "combinations": [
+    "Gun Patch Mister + UI: both application orders and reverse-order undo verified",
+    "Gun Patch Emulator + UI: both application orders and reverse-order undo verified"
+  ],
+  "mister_status": "Candidate based on latest user illustration: X -13, Y +6; not hardware-tested",
+  "emulator_status": "X -13, Y -6; user-tested in DuckStation",
+  "format_source": "https://github.com/Sappharad/MultiPatch/blob/master/ppfdev/makeppf3_linux.c"
+}

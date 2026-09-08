@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+/build/
+*.bin
+*.cue
+*.iso
+*.chd
+*.exe
+*.dll
+*.sav
+*.mcd
+*.state
+.env
