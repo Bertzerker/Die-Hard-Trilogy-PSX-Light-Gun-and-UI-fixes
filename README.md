@@ -3,6 +3,14 @@
 Separate PPF patches for the **Die Hard 2** portion of Die Hard Trilogy on
 PlayStation: setup-specific lightgun aiming corrections and a smaller HUD.
 
+## UI preview
+
+![Die Hard 2 with the UI patch: smaller centered score, rocket and grenade counters at bottom left, and corrected health badges](screenshots/die-hard-2-ui.png)
+
+The UI patch makes the score and counters smaller, moves the rocket/grenade
+counters to the bottom left, corrects the health badge proportions, and removes
+the controller-mode symbol.
+
 ## Downloads
 
 - [Gun Patch Mister.ppf](patches/Gun%20Patch%20Mister.ppf) — X −13, Y +6
