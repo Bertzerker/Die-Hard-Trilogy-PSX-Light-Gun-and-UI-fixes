@@ -28,6 +28,7 @@ also works alone. Do not combine the two aiming profiles.
 
 **Die Hard Trilogy (USA) (v1.1), SLUS-00119**, with the existing
 **Nuvee USA Greatest Hits GunCon conversion already applied**.
+https://emulationrealm.net/downloads/plugins/playstation/input/nuvee
 
 Apply to `Die Hard Trilogy (USA) (v1.1) (Track 01).bin`, not the CUE or CHD.
 These patches do not install the original GunCon conversion and do not target
